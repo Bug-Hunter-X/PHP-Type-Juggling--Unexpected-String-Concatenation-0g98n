@@ -1,0 +1,1 @@
+This example demonstrates a common error in PHP due to its loose typing system. When adding a number and a string, PHP implicitly converts the number to a string and performs string concatenation instead of numerical addition.  This can lead to subtle and hard-to-debug errors. The solution shows how to enforce type checking to avoid this.
